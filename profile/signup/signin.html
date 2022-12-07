@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <div class="form_login">
+        <div class="form-container">
+            <div class="logo">
+            <img src="/pictures/logo.png" alt="logo">
+            </div>
+            <section>
+              <input #username type="text" name="username" placeholder="Email address or Username">
+              <br />
+              <input #password type="password" name="password" placeholder="Password">
+              <br />
+              <a href="/profile/profile.html"><button type="button" role="button" (click)="login($event, username, password)">Login</button></a>
+              
+              <div class="forgot_pswd">
+                <a href="#">Forgot password?</a>
+              </div>
+              <br>
+              <div class="Dont_acc">
+               <p>Don't have an account?</p>
+               <a href="/signup/signup.html">Create Account</a>
+              </div>
+
+
+
+
+            </section>
+          </div>
+    </div>
+
+
+</body>
+</html>

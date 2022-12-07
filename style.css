@@ -1,0 +1,292 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #000A4B;
+        margin: 0;
+        padding: 15px;
+        overflow: hidden;
+       
+    }
+    .logo img{
+        display: block; 
+        max-width: 250px;
+    }
+    
+    .menu-items li{
+        float: left;
+    }
+    
+    .menu-items li a {  
+        font-size: 14px;
+        display: block; 
+        color: white;  
+        text-align: center;  
+        padding: 10px 20px;  
+      }  
+      .menu-items li a:Hover {  
+       color: #3BA5FC; 
+       transition: 0.3s;
+      }
+      .menu-items .active{
+        font-weight: bolder;
+      }
+    
+    .sign-btns li{
+        float: left;
+    }
+    
+    .sign-btns li a {  
+        font-size: 14px;
+        display: block;  
+        color: white;  
+        text-align: center;  
+        padding: 10px 20px;  
+      } 
+      .sign-btns li a:hover {  
+       color: #176EB5 ; 
+      } 
+    
+    .sign-btns .sign-up {
+        background-color:#3BA5FC;
+        border-radius: 6px;
+    }
+    .sign-btns .sign-up:hover {
+       padding: 12px 22px;
+       transition: 0.3s ;
+    }
+
+    .landing-page{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 80px;
+        margin-left: 130px;
+        margin-right: 130px;
+        padding-bottom: 80px;
+
+    }
+    .left {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .left h1{
+        text-transform: uppercase;
+        font-size: 46px;
+    }
+    .left p{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .left-btns{
+        display: flex;
+        gap: 20px;
+
+    }
+.profile button{
+    background-color: #000A4B;
+    color: white;
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 6px;
+}
+.works button:hover{
+    background-color: #000A4B;
+    color: white;
+    cursor: pointer;
+}
+.profile button:hover{
+    background-color: #176EB5;
+    color: white;
+    cursor: pointer;
+}
+.works button{
+    background-color: white;
+    color: #000A4B;
+    padding: 10px 10px;
+    border: 1px solid #000A4B;
+    border-radius: 6px;
+    font-size: bolder;
+}
+    .right img{
+        max-width: 400px;
+    }
+    
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000A4B;
+}
+
+.logos img{
+    max-width: 160px;
+}
+
+.part1 {
+    margin-top: 50px;
+    padding: 40px 40px;
+    text-align: center;
+}
+.part1 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.choose1 img{
+    max-width: 60px;
+}
+.choose1{
+    width: 180px;
+    height: 200px;
+    padding: 15px 15px;
+    background-color: #F5FAFE;
+    border-radius: 10px;
+}
+.choose1 h3{
+    padding: 10px;
+}
+.part2{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.pic2 img{
+    max-width: 400px;
+}
+.job h1{
+    font-size: 50px;
+    color: #000A4B;
+}
+.job p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.job{
+    margin-top: 100px;
+}
+.job button{
+    padding: 10px 50px;
+    background-color: #000A4B;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+
+.part3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000A4B;
+}
+.pic3 img{
+    max-width: 400px;
+}
+.one h1{
+    font-size: 50px;
+    color: white;
+}
+.one p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.one{
+    margin-top: 100px;
+}
+.one button{
+    padding: 10px 50px;
+    background-color: #3BA5FC;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+}
+
+.part4{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+
+}
+.part4 h1{
+    font-size: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    gap: 30px;
+}
+.skills p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skill2 img{
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+.skill1 img{
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+.skill3 img{
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+.skill1{
+    background-color: aliceblue;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.skill2{
+    background-color: aliceblue;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.skill3{
+    background-color: aliceblue;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.part4 h1{
+    text-align: center;
+    color: #000A4B;
+}
+
+/* footer styling */
+footer{
+    background-color: #000A4B;
+
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+.footer1 p{
+    color: white;
+}
+
